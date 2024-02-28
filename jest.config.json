@@ -1,0 +1,12 @@
+{
+    "collectCoverage": true,
+    "clearMocks": true,
+    "moduleFileExtensions": ["js", "ts"],
+    "transform": {
+        "^.+\\.ts$": "ts-jest"
+    },
+    "setupFilesAfterEnv": [],
+    "testMatch": ["**/*.test.ts"],
+    "verbose": true,
+    "collectCoverageFrom": ["**/*.{ts,jx}", "!**/node_modules/**", "!**/dist/**, !**/lib/**"]
+}

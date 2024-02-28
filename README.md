@@ -12,7 +12,7 @@
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ishida0415&theme=gotham)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ishida0415&theme=gotham) ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ishida0415&theme=gotham)
 
-<!-- ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ishida0415&theme=gotham) ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ishida0415&theme=gotham&utcOffset=8) -->
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ishida0415&theme=gotham) ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ishida0415&theme=gotham&utcOffset=8)
 
 </div>
 
@@ -80,4 +80,3 @@
     <img src="./icons/LinkedIn.svg" width="48">
 </div>
 </div>
-123

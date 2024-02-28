@@ -1,8 +1,27 @@
-name: Update GitHub Profile
+name: Update on Various Events
 
 on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - synchronize
+  issues:
+    types:
+      - opened
+      - edited
   schedule:
-    - cron: '0 0 * * *' # Run every day at midnight UTC
+    - cron: '0 0 * * *'  # Scheduled daily run
+  workflow_run:
+    workflows:
+      - 'CI Workflow'
+    types:
+      - completed
+  repository_dispatch:
+    types:
+      - update-profile
 
 jobs:
   update-profile:

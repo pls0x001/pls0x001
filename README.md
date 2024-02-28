@@ -80,4 +80,3 @@
     <img src="./icons/LinkedIn.svg" width="48">
 </div>
 </div>
-23

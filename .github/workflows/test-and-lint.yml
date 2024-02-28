@@ -21,7 +21,7 @@ jobs:
       uses: runforesight/foresight-workflow-kit-action@v1
       if: success() || failure()
       with:
-        api_key: ${{ secrets.foresight_api_key }}
+        api_key: ${{ secrets.readme }}
 
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -36,7 +36,7 @@ jobs:
       uses: runforesight/foresight-test-kit-action@v1
       if: success() || failure()
       with:
-        api_key: ${{ secrets.foresight_api_key }}
+        api_key: ${{ secrets.readme }}
         test_format: JUNIT
         test_framework: JEST
         test_path: ./junit.xml

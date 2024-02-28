@@ -1,52 +1,35 @@
-name: Update on Various Events
+name: CI
 
 on:
-   push:
-     branches:
-       - main
-   pull_request:
-     types:
-       - opened
-       - synchronize
-   issues:
-     types:
-       - opened
-       - edited
-   schedule:
-     - cron: '0 0 * * *'
-   workflow_run:
-     workflows:
-       - 'CI Workflow'
-     types:
-       - completed
-   repository_dispatch:
-     types:
-       - update-profile
+  push:
+    branches:
+      - main
+  pull_request:
+    types:
+      - opened
+      - synchronize
 
 jobs:
-   update-profile:
-     runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-     steps:
-       - name: Checkout repository
-         uses: actions/checkout@v2
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-       - name: Use Node.js 16
-         uses: actions/setup-node@v4
-         with:
-           node-version: 16
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-       - name: Update profile data
-         run: |
-           # Add commands here to update your profile data
-           echo "Updated at $(date)" > profile-details.txt
-           echo "Language: Python" > most-commit-language.txt
-           echo "Total commits: 1000" > stats.txt
+      - name: Install dependencies
+        run: npm install
 
-       - name: Commit changes
-         run: |
-           git config --global user.name 'GitHub Actions'
-           git config --global user.email 'actions@github.com'
-           git add profile-details.txt most-commit-language.txt stats.txt
-           git commit -m "Update GitHub profile data"
-           git push
+      - name: Run tests
+        run: npm test
+
+      - name: Deploy to production
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          echo "Deploying to production..."
+          # Add your deployment commands here

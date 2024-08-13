@@ -1,45 +1,5 @@
-<p align='center'>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Ryohei%20Ishida&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20and%20Blockchain%20Developer&descAlignY=51&descAlign=62"/>
-</p>
-
-
-# <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> Hi there 👋 <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-
-<div align="center">
-
-[![](https://github-profile-trophy.vercel.app/?username=ishida0415&theme=onedark)](https://github.com/ishida0415/github-profile-trophy)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ishida0415&theme=gotham)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ishida0415&theme=gotham) ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ishida0415&theme=gotham)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ishida0415&theme=gotham) ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ishida0415&theme=gotham&utcOffset=8)
-
-</div>
-
 <p align="center">
-
-
-<a href="https://github.com/ishida0415?tab=repositories"><img src="https://github-readme-stats-one-bice.vercel.app/api?username=ishida0415&theme=gotham&show_icons=true&count_private=true&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"  width="48%" alt="@Ishida's github-readme-stats"/></a>
-<a href="https://github.com/ishida0415?tab=stars"><img src="https://github-readme-streak-stats.herokuapp.com?user=ishida0415&theme=gotham&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"  width="48%" alt="@Ishida's github-readme-streak-stats"/></a>
-
-</p>
-
-
-<a href="https://rextester.com/l/kotlin_online_compiler"><img src="./assets/colored.png"  width="100%" alt="kotlin_online_compiler"/></a>
-
-
-<!-- activity graph heroku-app start -->
-<p align="center">
-    <a href="https://wakatime.com/">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=ishida0415&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="95%" alt="activity graph">
-    </a>
-</p>
-<!-- activity graph heroku-app end -->
-
-
-<p align="center">
-<a href="https://wakatime.com/"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ishida0415&theme=gotham&hide_border=true&layout=compact&hide_title=true&langs_count=14&range=all_time"  width="58%" alt="@Ishida's wakatime stats"/></a>
-<a href="https://github.com/ishida0415?tab=achievements"><img src="https://github-profile-trophy.vercel.app/?username=ishida0415&theme=onestar&no-frame=true&column=3&row=2"  width="38%" alt="@Ishida's trophy stats"/></a>
+<a href="https://github.com/ishida0415?tab=achievements"><img src="https://github-profile-trophy.vercel.app/?username=ishida0415&theme=onestar&no-frame=true&column=8&row=1"  width="38%" alt="@Ishida's trophy stats"/></a>
 </p>
 
 

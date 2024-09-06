@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/pls0x001 ?tab=achievements"><img src="https://github-profile-trophy.vercel.app/?username=pls0x001 &theme=onestar&no-frame=true&column=8&row=1"  width="100%" alt="@Ishida's trophy stats"/></a>
+<a href="https://github.com/pls0x001?tab=achievements"><img src="https://github-profile-trophy.vercel.app/?username=pls0x001&theme=onestar&no-frame=true&column=8&row=1" width="100%" alt="trophy stats"/></a>
 </p>
 
 
